@@ -21,11 +21,6 @@ namespace Bisection_Method
             answer_tb.Text = Bisection(a, b).ToString();
         }
 
-        private void onlyNumbersValidation(object sender, KeyPressEventArgs e)
-        {
-            Validation.IntValidation(e);
-        }
-
         double Func(double x)
         {
             return x3_num * x * x * x + x2_num * x * x + x_num * x + num;
@@ -38,7 +33,7 @@ namespace Bisection_Method
                 error_lb.Text = "You have not assumed right a and b";
 
                 return -1;
-            }*/
+            }*//*
 
             double c = a;
             while ((b - a) >= epsilon)
@@ -57,9 +52,116 @@ namespace Bisection_Method
                 {
                     a = c;
                 }
+            }*/
+
+            /*double c = a;
+
+            if (Func(a) * Func(b) < 0)
+            {
+                while ((b - a) > epsilon)
+                {
+                    c = (a + b) / 2;
+
+                    if (Func(a) * Func(c) < 0)
+                    {
+                        b = c;
+                    }
+                    else if (Func(b) * Func(c) < 0)
+                    {
+                        a = c;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                c = 0;
+            }*/
+
+            /*double c;
+            if (a < 0)
+            {
+                c = a;
+
+                while (b - a >= epsilon)
+                {
+                    c = (a + b) / 2;
+
+                    if (Func(a) * Func(c) < 0)
+                        b = c;
+                    else
+                        a = c;
+                }
+            }
+            else
+            {
+                c = b;
+                while (a - b >= epsilon)
+                {
+                    c = (a + b) / 2;
+
+                    if (Func(a) * Func(c) < 0)
+                        b = c;
+                    else
+                        a = c;
+                }
+            }*/
+
+            /*if (Func(a) == 0.0)
+            {
+                return a;
+            }
+            if (Func(b) == 0.0)
+            {
+                return b;
             }
 
-            return c;
+            double c;
+
+            while (b - a > epsilon)
+            {
+                c = (a + b) / 2;
+
+                if (Func(c) == 0.0)
+                {
+                    return c;
+                }
+
+                if (Func(a) * Func(c) < 0)
+                {
+                    b = c;
+                }
+                else
+                {
+                    a = c;
+                }
+            }*/
+
+            if (Func(a) == 0.0)
+            {
+                return a;
+            }
+            if (Func(b) == 0.0)
+            {
+                return b;
+            }
+
+            double c = (a + b) / 2;
+
+            if (b - a <= epsilon)
+            {
+                return c;
+            }
+
+            if (Func(a) * Func(c) < 0)
+            {
+                return Bisection(a, c);
+            }
+
+            return Bisection(c, b);
         }
 
         private void clear_bt_Click(object sender, EventArgs e)
@@ -90,6 +192,11 @@ namespace Bisection_Method
             b = double.Parse(b_tb.Text);
 
             epsilon = double.Parse(epsilon_tb.Text);
+        }
+
+        private void onlyNumbersValidation(object sender, KeyPressEventArgs e)
+        {
+            Validation.IntValidation(e);
         }
     }
 }

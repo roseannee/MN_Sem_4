@@ -35,10 +35,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.answer_tb = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.b_tb = new System.Windows.Forms.TextBox();
+            this.x_0_tb = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.a_tb = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.num_tb = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.x_num_tb = new System.Windows.Forms.TextBox();
@@ -75,7 +73,7 @@
             // 
             // epsilon_tb
             // 
-            this.epsilon_tb.Location = new System.Drawing.Point(42, 146);
+            this.epsilon_tb.Location = new System.Drawing.Point(53, 127);
             this.epsilon_tb.Margin = new System.Windows.Forms.Padding(4);
             this.epsilon_tb.Name = "epsilon_tb";
             this.epsilon_tb.Size = new System.Drawing.Size(62, 23);
@@ -86,7 +84,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(13, 149);
+            this.label11.Location = new System.Drawing.Point(13, 130);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(18, 17);
@@ -122,45 +120,25 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "x:";
             // 
-            // b_tb
+            // x_0_tb
             // 
-            this.b_tb.Location = new System.Drawing.Point(42, 115);
-            this.b_tb.Margin = new System.Windows.Forms.Padding(4);
-            this.b_tb.Name = "b_tb";
-            this.b_tb.Size = new System.Drawing.Size(28, 23);
-            this.b_tb.TabIndex = 34;
-            this.b_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.b_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onlyNumbersValidation);
+            this.x_0_tb.Location = new System.Drawing.Point(53, 96);
+            this.x_0_tb.Margin = new System.Windows.Forms.Padding(4);
+            this.x_0_tb.Name = "x_0_tb";
+            this.x_0_tb.Size = new System.Drawing.Size(28, 23);
+            this.x_0_tb.TabIndex = 34;
+            this.x_0_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.x_0_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onlyNumbersValidation);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 118);
+            this.label9.Location = new System.Drawing.Point(13, 99);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(21, 17);
+            this.label9.Size = new System.Drawing.Size(32, 17);
             this.label9.TabIndex = 33;
-            this.label9.Text = "b:";
-            // 
-            // a_tb
-            // 
-            this.a_tb.Location = new System.Drawing.Point(42, 84);
-            this.a_tb.Margin = new System.Windows.Forms.Padding(4);
-            this.a_tb.Name = "a_tb";
-            this.a_tb.Size = new System.Drawing.Size(28, 23);
-            this.a_tb.TabIndex = 32;
-            this.a_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.a_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.onlyNumbersValidation);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(13, 87);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(21, 17);
-            this.label8.TabIndex = 31;
-            this.label8.Text = "a:";
+            this.label9.Text = "x_0:";
             // 
             // num_tb
             // 
@@ -282,10 +260,8 @@
             this.Controls.Add(this.epsilon_tb);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.b_tb);
+            this.Controls.Add(this.x_0_tb);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.a_tb);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.num_tb);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.x_num_tb);
@@ -298,7 +274,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Newton Raphson Method";
             this.groupBox1.ResumeLayout(false);
@@ -316,10 +292,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox answer_tb;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox b_tb;
+        private System.Windows.Forms.TextBox x_0_tb;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox a_tb;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox num_tb;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox x_num_tb;

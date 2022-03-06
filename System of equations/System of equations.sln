@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System of equations", "System of equations.csproj", "{16773DD0-7599-41D0-B428-56E075D53554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16773DD0-7599-41D0-B428-56E075D53554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16773DD0-7599-41D0-B428-56E075D53554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16773DD0-7599-41D0-B428-56E075D53554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16773DD0-7599-41D0-B428-56E075D53554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBF7D823-7958-47BB-A104-D7F690A0B6D6}
+	EndGlobalSection
+EndGlobal

@@ -28,14 +28,7 @@ namespace Bisection_Method
 
         double Bisection(double a, double b)
         {
-            /*if (Func(a) * Func(b) >= 0)
-            {
-                error_lb.Text = "You have not assumed right a and b";
-
-                return -1;
-            }*//*
-
-            double c = a;
+            /*double c = a;
             while ((b - a) >= epsilon)
             {
                 c = (a + b) / 2;
@@ -45,92 +38,6 @@ namespace Bisection_Method
                     break;
                 }
                 else if (Func(c) * Func(a) < 0)
-                {
-                    b = c;
-                }
-                else
-                {
-                    a = c;
-                }
-            }*/
-
-            /*double c = a;
-
-            if (Func(a) * Func(b) < 0)
-            {
-                while ((b - a) > epsilon)
-                {
-                    c = (a + b) / 2;
-
-                    if (Func(a) * Func(c) < 0)
-                    {
-                        b = c;
-                    }
-                    else if (Func(b) * Func(c) < 0)
-                    {
-                        a = c;
-                    }
-                    else
-                    {
-                        break;
-                    }
-                }
-            }
-            else
-            {
-                c = 0;
-            }*/
-
-            /*double c;
-            if (a < 0)
-            {
-                c = a;
-
-                while (b - a >= epsilon)
-                {
-                    c = (a + b) / 2;
-
-                    if (Func(a) * Func(c) < 0)
-                        b = c;
-                    else
-                        a = c;
-                }
-            }
-            else
-            {
-                c = b;
-                while (a - b >= epsilon)
-                {
-                    c = (a + b) / 2;
-
-                    if (Func(a) * Func(c) < 0)
-                        b = c;
-                    else
-                        a = c;
-                }
-            }*/
-
-            /*if (Func(a) == 0.0)
-            {
-                return a;
-            }
-            if (Func(b) == 0.0)
-            {
-                return b;
-            }
-
-            double c;
-
-            while (b - a > epsilon)
-            {
-                c = (a + b) / 2;
-
-                if (Func(c) == 0.0)
-                {
-                    return c;
-                }
-
-                if (Func(a) * Func(c) < 0)
                 {
                     b = c;
                 }

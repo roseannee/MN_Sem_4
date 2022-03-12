@@ -6,7 +6,7 @@ namespace Newton_Raphson_Method
     public partial class Form1 : Form
     {
         double x3_num, x2_num, x_num, num;
-        double x_0;
+        double a, b;
         double epsilon;
 
         public Form1()
@@ -18,7 +18,7 @@ namespace Newton_Raphson_Method
         {
             GetNums();
 
-            answer_tb.Text = NewtonRaphson(x_0).ToString();
+            answer_tb.Text = NewtonRaphson(Case()).ToString();
         }
 
         double Func(double x)
@@ -55,6 +55,30 @@ namespace Newton_Raphson_Method
             return h;
         }
 
+        double Case()
+        {
+            if (Func(a) < 0 && Func(b) > 0 && DerivFunc(b) > 0)
+            {
+                return b;
+            }
+            else if (Func(a) > 0 && Func(b) < 0 && DerivFunc(a) > 0)
+            {
+                return a;
+            }
+            else if (Func(a) > 0 && Func(b) < 0 && DerivFunc(b) < 0)
+            {
+                return b;
+            }
+            else
+            {
+                return a;
+            }
+            /*else if (Func(a) < 0 && Func(b) > 0 && DerivFunc(a) < 0)
+            {
+                return a;
+            }*/
+        }
+
         private void clear_bt_Click(object sender, EventArgs e)
         {
             x3_num_tb.Text = "";
@@ -62,7 +86,8 @@ namespace Newton_Raphson_Method
             x_num_tb.Text = "";
             num_tb.Text = "";
 
-            x_0_tb.Text = "";
+            a_tb.Text = "";
+            b_tb.Text = "";
 
             epsilon_tb.Text = "";
 
@@ -76,7 +101,8 @@ namespace Newton_Raphson_Method
             x_num = double.Parse(x_num_tb.Text);
             num = double.Parse(num_tb.Text);
 
-            x_0 = double.Parse(x_0_tb.Text);
+            a = double.Parse(a_tb.Text);
+            b = double.Parse(b_tb.Text);
 
             epsilon = double.Parse(epsilon_tb.Text);
         }

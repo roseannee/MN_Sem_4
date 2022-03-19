@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Lagrange_s_Interpolation
+namespace Newton_s_Interpolation
 {
     internal class Validation
     {

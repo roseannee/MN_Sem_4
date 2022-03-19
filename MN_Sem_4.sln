@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System of equations", "..\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secant Method", "..\Secant Method\Secant Method.csproj", "{F1D4F748-A4C1-4833-9211-66351D4EA3D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagrange’s Interpolation", "..\Lagrange’s Interpolation\Lagrange’s Interpolation.csproj", "{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

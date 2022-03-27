@@ -84,8 +84,6 @@ namespace Bisection_Method
             epsilon_tb.Text = "";
 
             answer_tb.Text = "";
-
-            error_lb.Text = "";
         }
 
         public void GetNums()

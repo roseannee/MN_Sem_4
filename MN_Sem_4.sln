@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagrange’s Interpolation"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton’s Interpolation", "..\Newton’s Interpolation\Newton’s Interpolation.csproj", "{990D586F-60B7-4E06-9CAC-A328ACC125C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapezoidal rule", "..\Trapezoidal rule\Trapezoidal rule.csproj", "{EEAE9782-A69A-4111-B279-485143B38D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpson’s rule", "..\Simpson’s rule\Simpson’s rule.csproj", "{E7A41D1C-014F-467F-A38E-E47143037257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{990D586F-60B7-4E06-9CAC-A328ACC125C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990D586F-60B7-4E06-9CAC-A328ACC125C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{990D586F-60B7-4E06-9CAC-A328ACC125C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAE9782-A69A-4111-B279-485143B38D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAE9782-A69A-4111-B279-485143B38D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAE9782-A69A-4111-B279-485143B38D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAE9782-A69A-4111-B279-485143B38D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A41D1C-014F-467F-A38E-E47143037257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A41D1C-014F-467F-A38E-E47143037257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A41D1C-014F-467F-A38E-E47143037257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A41D1C-014F-467F-A38E-E47143037257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,34 +28,6 @@ namespace Bisection_Method
 
         double Bisection(double a, double b)
         {
-            /*double c = a;
-            while ((b - a) >= epsilon)
-            {
-                c = (a + b) / 2;
-
-                if (Func(c) == 0.0)
-                {
-                    break;
-                }
-                else if (Func(c) * Func(a) < 0)
-                {
-                    b = c;
-                }
-                else
-                {
-                    a = c;
-                }
-            }*/
-
-            if (Func(a) == 0.0)
-            {
-                return a;
-            }
-            if (Func(b) == 0.0)
-            {
-                return b;
-            }
-
             double c = (a + b) / 2;
 
             if (b - a <= epsilon)

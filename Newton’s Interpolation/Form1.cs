@@ -1,4 +1,5 @@
-﻿using System;using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace Newton_s_Interpolation
 {

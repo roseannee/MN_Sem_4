@@ -56,50 +56,6 @@ namespace Secant_Method
             return x_0;
         }
 
-        /*double Secant_extra(double x1, double x2)
-        {
-            if (x_0 == a)
-            {
-                x = a;
-
-                while (Math.Abs(Func(x)) > epsilon)
-                {
-                    x = b - ((Func(b) * (b - a)) / (Func(b) - Func(a)));
-                    a = b;
-                    b = x;
-                }
-            }
-            else
-            {
-                x = b;
-
-                while (Math.Abs(Func(x)) > epsilon)
-                {
-
-                }
-            }
-        }*/
-
-        /*double Case()
-        {
-            if (Func(a) < 0 && Func(b) > 0 & DerivFunc(b) > 0)
-            {
-                return a;
-            }
-            else if (Func(a) > 0 && Func(b) < 0 & DerivFunc(a) > 0)
-            {
-                return b;
-            }
-            else if (Func(a) > 0 && Func(b) < 0 & DerivFunc(b) < 0)
-            {
-                return a;
-            }
-            else
-            {
-                return b;
-            }
-        }*/
-
         private void clear_bt_Click(object sender, EventArgs e)
         {
             x3_num_tb.Text = "";

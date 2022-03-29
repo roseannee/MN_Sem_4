@@ -33,17 +33,6 @@ namespace Newton_Raphson_Method
 
         double NewtonRaphson(double x)
         {
-            /*double h = Func(x) / DerivFunc(x);
-
-            while (Math.Abs(h) >= epsilon)
-            {
-                h = Func(x) / DerivFunc(x);
-
-                x -= h;
-            }
-
-            return Math.Round(x * 100.0) / 100.0;*/
-
             double h;
 
             do
@@ -73,10 +62,6 @@ namespace Newton_Raphson_Method
             {
                 return a;
             }
-            /*else if (Func(a) < 0 && Func(b) > 0 && DerivFunc(a) < 0)
-            {
-                return a;
-            }*/
         }
 
         private void clear_bt_Click(object sender, EventArgs e)

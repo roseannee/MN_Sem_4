@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisection Method", "..\Bisection Method\Bisection Method.csproj", "{39E2D01B-5041-4590-9B91-EAF5F765CE67}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton Raphson Method", "..\Newton Raphson Method\Newton Raphson Method.csproj", "{4F905801-349E-49D7-BF65-F439D7739E14}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System of equations", "..\System of equations\System of equations.csproj", "{16773DD0-7599-41D0-B428-56E075D53554}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secant Method", "..\Secant Method\Secant Method.csproj", "{F1D4F748-A4C1-4833-9211-66351D4EA3D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagrange’s Interpolation", "..\Lagrange’s Interpolation\Lagrange’s Interpolation.csproj", "{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton’s Interpolation", "..\Newton’s Interpolation\Newton’s Interpolation.csproj", "{990D586F-60B7-4E06-9CAC-A328ACC125C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisection Method", "Bisection Method\Bisection Method.csproj", "{39E2D01B-5041-4590-9B91-EAF5F765CE67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapezoidal rule", "..\Trapezoidal rule\Trapezoidal rule.csproj", "{EEAE9782-A69A-4111-B279-485143B38D9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton Raphson Method", "Newton Raphson Method\Newton Raphson Method.csproj", "{4F905801-349E-49D7-BF65-F439D7739E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpson’s rule", "..\Simpson’s rule\Simpson’s rule.csproj", "{E7A41D1C-014F-467F-A38E-E47143037257}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton’s Interpolation", "Newton’s Interpolation\Newton’s Interpolation.csproj", "{990D586F-60B7-4E06-9CAC-A328ACC125C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secant Method", "Secant Method\Secant Method.csproj", "{F1D4F748-A4C1-4833-9211-66351D4EA3D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpson’s rule", "Simpson’s rule\Simpson’s rule.csproj", "{E7A41D1C-014F-467F-A38E-E47143037257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapezoidal rule", "Trapezoidal rule\Trapezoidal rule.csproj", "{EEAE9782-A69A-4111-B279-485143B38D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +25,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16773DD0-7599-41D0-B428-56E075D53554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16773DD0-7599-41D0-B428-56E075D53554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16773DD0-7599-41D0-B428-56E075D53554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16773DD0-7599-41D0-B428-56E075D53554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39E2D01B-5041-4590-9B91-EAF5F765CE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{39E2D01B-5041-4590-9B91-EAF5F765CE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39E2D01B-5041-4590-9B91-EAF5F765CE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,30 +41,22 @@ Global
 		{4F905801-349E-49D7-BF65-F439D7739E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F905801-349E-49D7-BF65-F439D7739E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F905801-349E-49D7-BF65-F439D7739E14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16773DD0-7599-41D0-B428-56E075D53554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16773DD0-7599-41D0-B428-56E075D53554}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16773DD0-7599-41D0-B428-56E075D53554}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16773DD0-7599-41D0-B428-56E075D53554}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0D336AF-3495-4F08-A236-B8C5F03DD8A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{990D586F-60B7-4E06-9CAC-A328ACC125C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{990D586F-60B7-4E06-9CAC-A328ACC125C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990D586F-60B7-4E06-9CAC-A328ACC125C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{990D586F-60B7-4E06-9CAC-A328ACC125C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EEAE9782-A69A-4111-B279-485143B38D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EEAE9782-A69A-4111-B279-485143B38D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EEAE9782-A69A-4111-B279-485143B38D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EEAE9782-A69A-4111-B279-485143B38D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D4F748-A4C1-4833-9211-66351D4EA3D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7A41D1C-014F-467F-A38E-E47143037257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7A41D1C-014F-467F-A38E-E47143037257}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A41D1C-014F-467F-A38E-E47143037257}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7A41D1C-014F-467F-A38E-E47143037257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAE9782-A69A-4111-B279-485143B38D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAE9782-A69A-4111-B279-485143B38D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAE9782-A69A-4111-B279-485143B38D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAE9782-A69A-4111-B279-485143B38D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

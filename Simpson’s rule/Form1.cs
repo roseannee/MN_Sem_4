@@ -15,7 +15,7 @@ namespace Simpson_s_rule
 
         double Func(double x)
         {
-            return x3_num * x * x * x - x2_num * x * x + x_num * x - num;
+            return x3_num * x * x * x + x2_num * x * x + x_num * x + num;
         }
         private void calc_btn_Click(object sender, EventArgs e)
         {

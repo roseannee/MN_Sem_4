@@ -115,9 +115,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(277, 48);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 17);
+            this.label4.Size = new System.Drawing.Size(27, 17);
             this.label4.TabIndex = 24;
-            this.label4.Text = "x  -";
+            this.label4.Text = "x +";
             // 
             // x_num_txb
             // 
@@ -151,9 +151,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(98, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 17);
+            this.label2.Size = new System.Drawing.Size(43, 17);
             this.label2.TabIndex = 20;
-            this.label2.Text = "x^3  -";
+            this.label2.Text = "x^3 +";
             // 
             // x3_num_txb
             // 

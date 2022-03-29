@@ -15,7 +15,7 @@ namespace Trapezoidal_rule
 
         double Func(double x)
         {
-            return x3_num * x * x * x - x2_num * x * x + x_num * x - num;
+            return x3_num * x * x * x + x2_num * x * x + x_num * x + num;
         }
 
         private void calc_btn_Click(object sender, EventArgs e)
@@ -37,19 +37,6 @@ namespace Trapezoidal_rule
             }
 
             return (h / 2) * sum;
-
-            /*double step = (b - a) / n;
-
-            double integral = 0.5 * (Func(a) + Func(b));
-
-            for (int i = 0; i < n; i++)
-            {
-                integral += Func(a + step * i);
-            }
-
-            integral *= step;
-
-            return integral;*/
         }
 
         private void clear_btn_Click(object sender, EventArgs e)
